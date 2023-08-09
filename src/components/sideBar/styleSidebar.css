@@ -1,0 +1,48 @@
+h2 {
+  margin: 0;
+}
+.row2 {
+  background: #bcdfbb;
+  height: 30px;
+  line-height: 30px;
+  display: flex;
+  justify-content: space-around;
+}
+.row2 .item:last-child {
+  padding-right: 20px;
+}
+.row2 .item {
+  font-size: 11pt;
+  color: #333;
+  width: 50%;
+  text-align: center;
+  padding-top: 5px;
+}
+.row3 {
+  display: flex;
+  justify-content: space-around;
+  padding: 15px 0;
+}
+.inner:nth-child(3) {
+  border-right: 1px solid #d7d7d7;
+}
+.row3 .month {
+  font-size: 11pt;
+  color: #7f7f7f;
+  font-weight: 600;
+  font-family: "Roboto-Bold" !important;
+  font-weight: initial;
+}
+
+.row3 .day {
+  font-size: 52pt;
+  color: #73ac3a;
+  padding-top: 35px;
+  height: 83px;
+}
+.row3 .inner {
+  width: 50%;
+}
+.txtCent {
+  text-align: center;
+}
